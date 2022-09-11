@@ -1,0 +1,281 @@
+html {
+  transition: 0.4s ease-in;
+}
+
+body {
+  background-color: #edede9;
+}
+
+.header {
+  transition: 0.4s ease-in;
+  backdrop-filter: blur(100px);
+}
+
+#brand {
+  font-family: "playfair display";
+  font-size: 24px;
+  font-weight: 700;
+}
+
+#sosmed {
+  opacity: 50%;
+}
+
+#sosmed:hover {
+  opacity: 100%;
+}
+
+.tagline {
+  height: 80vh;
+  transition: 0.4s ease-in;
+}
+
+.tagline span {
+  width: 55px;
+  border-top: 5px solid #828282;
+}
+
+.tagline h1 {
+  font-family: "playfair display";
+  line-height: 72px;
+  font-weight: 700;
+}
+
+.tagline p {
+  font-family: "quicksand";
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.tagline h1,
+.tagline p {
+  max-width: 610px;
+}
+
+#promo {
+  height: 20vh;
+}
+
+#promo a {
+  font-family: "quicksand";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  color: #000000;
+  opacity: 60%;
+  box-sizing: border-box;
+}
+
+#promo a:hover {
+  opacity: 100%;
+}
+
+#promo a img {
+  animation: arrowbot 0.4s infinite;
+}
+
+@keyframes arrowbot {
+  0% {
+    margin-top: -5;
+  }
+  50% {
+    margin-top: 5px;
+  }
+  100% {
+    margin-top: 10px;
+  }
+}
+
+.header .accents-ring {
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 20vw;
+  z-index: -1;
+}
+
+.catalog {
+  padding: 50px 0;
+  background-color: white;
+  height: 940px;
+  transition: 0.4s ease-in;
+}
+
+/* #satu,
+#dua,
+#tiga,
+#empat {
+  border: 1px solid black;
+} */
+
+#satu img,
+#dua img,
+#tiga img,
+#empat img {
+  border-radius: 20px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+  transition: 0.2s;
+}
+
+#satu img:hover,
+#dua img:hover,
+#tiga img:hover,
+#empat img:hover {
+  box-shadow: none;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+#catalog h1 {
+  font-family: "quicksand";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+#line {
+  width: 300px;
+  height: 0;
+  background-color: #2f2f2f;
+  border-bottom: 3px solid #2f2f2f;
+  transition: 0.5 ease-in;
+}
+
+.more-catalog {
+  width: 90%;
+}
+
+.more-catalog a {
+  font-family: "quicksand";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  color: #000000;
+  opacity: 60%;
+}
+
+.more-catalog a:hover {
+  opacity: 100%;
+}
+
+.bg-voucher {
+  width: auto;
+  height: auto;
+}
+
+.accents-voucher {
+  width: 50%;
+  position: absolute;
+  z-index: -1;
+}
+
+.accents-voucher-1 {
+  width: 50%;
+  position: absolute;
+  z-index: -1;
+  right: 0;
+}
+
+.bg-voucher .text-voucher span {
+  width: 100px;
+  height: 10px;
+  color: black;
+  border: 1px solid transparent;
+}
+
+.text-voucher #text {
+  font-family: "playfair display";
+}
+
+.text-voucher #text span {
+  color: #e6b325;
+}
+
+.text-voucher h2 {
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 85px;
+}
+
+.text-voucher h1 {
+  font-size: 150px;
+  font-weight: 600;
+  line-height: 250px;
+}
+
+.text-voucher h4 {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 53px;
+}
+
+.bg-voucher button {
+  margin-top: 130px;
+  width: 400px;
+  height: 70px;
+  font-family: "quicksand";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 50px;
+  border-radius: 20px;
+}
+
+.bg-about {
+  width: auto;
+  height: 892px;
+  background-image: url(../assets/bg-about1.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-about .container span {
+  color: #e6b325;
+}
+
+.bg-about .text-about {
+  height: 800px;
+  /* width: 100%; */
+}
+
+.text-about h2 {
+  font-family: "playfair display";
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 63px;
+}
+
+.text-about span {
+  display: flex;
+  width: 55px;
+  border-bottom: 5px solid #828282;
+}
+.text-about p {
+  font-family: "quicksand";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 50px;
+}
+
+.float-icon {
+  position: fixed;
+  bottom: 0;
+  right: 30px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.float-icon a {
+  display: block;
+  padding: 10px;
+  transition: all 0.3s ease;
+  color: white;
+  background-color: green;
+  border-radius: 30px;
+  box-shadow: 3px 3px 3px grey;
+  box-sizing: border-box;
+}
+
+.float-icon a:hover {
+  background-color: black;
+}

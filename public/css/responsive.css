@@ -1,0 +1,352 @@
+@media screen and (min-width: 360px) {
+  .header {
+    height: 100%;
+  }
+
+  .header #navbar {
+    flex-direction: column;
+  }
+
+  .tagline {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+    height: 70vh;
+    margin-top: 100px;
+    width: 90%;
+  }
+
+  .tagline h1 {
+    line-height: 48px;
+  }
+
+  .tagline span {
+    margin: 10px 0;
+    padding: 2px;
+    width: 40%;
+    background-color: #828282;
+    border-top: none;
+    box-sizing: border-box;
+  }
+
+  .header .accents-ring {
+    display: block;
+    position: absolute;
+    width: 250px;
+    top: 56%;
+  }
+
+  #promo {
+    margin-top: -80px;
+  }
+
+  .catalog #img-1,
+  .catalog #img-2,
+  .catalog #img-3,
+  .catalog #img-4 {
+    width: 300px;
+  }
+
+  .catalog {
+    height: auto;
+  }
+
+  #line {
+    width: 100px;
+  }
+
+  .more-catalog {
+    width: 50%;
+  }
+
+  .bg-voucher .accents-voucher {
+    width: 70%;
+    position: absolute;
+    z-index: -1;
+  }
+
+  .bg-voucher .accents-voucher-1 {
+    width: 70%;
+    position: absolute;
+    z-index: -1;
+    right: 0;
+  }
+
+  .text-voucher h2,
+  .text-voucher h1,
+  .text-voucher h4,
+  .text-voucher span {
+    text-align: center;
+  }
+
+  .text-voucher h2 {
+    padding-top: 40px;
+    font-size: 42px;
+    line-height: 52px;
+  }
+
+  .text-voucher h1 {
+    line-height: 200px;
+  }
+
+  #button {
+    margin-bottom: 60px;
+  }
+
+  .bg-about {
+    background-image: url(../assets/bg-about2.svg);
+  }
+
+  #about {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    /* height: 100%; */
+  }
+
+  .text-about {
+    margin-top: 0;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+  }
+
+  .text-about span {
+    width: 80px;
+    height: 5px;
+    background-color: #828282;
+  }
+
+  .text-about p {
+    line-height: 36px;
+  }
+
+  #copyright {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: flex-end;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .tagline {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+    height: 70vh;
+    margin-top: 120px;
+    width: 80%;
+  }
+  .tagline h1 {
+    line-height: 52px;
+  }
+
+  .tagline span {
+    margin: 10px 0;
+    padding: 2px;
+    width: 30%;
+    background-color: #828282;
+    box-sizing: border-box;
+  }
+
+  .header .accents-ring {
+    width: 400px;
+    top: 56%;
+    left: 15%;
+  }
+
+  .bg-voucher {
+    height: 890px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .tagline {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+    height: 70vh;
+    margin-top: 120px;
+    width: 60%;
+  }
+  .tagline h1 {
+    line-height: 52px;
+  }
+
+  .tagline span {
+    margin: 10px 0;
+    padding: 2px;
+    width: 20%;
+    background-color: #828282;
+    box-sizing: border-box;
+  }
+
+  .header .accents-ring {
+    width: 400px;
+    top: 55%;
+    left: 23%;
+  }
+
+  #promo {
+    margin-top: 0;
+  }
+
+  .more-catalog {
+    width: 40%;
+  }
+
+  #satu,
+  #dua,
+  #tiga,
+  #empat {
+    /* margin: 50px 0; */
+  }
+
+  .bg-voucher .accents-voucher {
+    width: 50%;
+    position: absolute;
+    z-index: -1;
+  }
+
+  .bg-voucher .accents-voucher-1 {
+    width: 50%;
+    position: absolute;
+    z-index: -1;
+    right: 0;
+  }
+
+  .text-voucher h2 {
+    padding-top: 48px;
+    font-size: 52px;
+    line-height: 60px;
+  }
+
+  .text-voucher h1 {
+    line-height: 250px;
+  }
+
+  #button {
+    margin-bottom: none;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .tagline {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+    height: 70vh;
+    margin-top: 120px;
+    width: 100%;
+  }
+  .tagline h1 {
+    line-height: 52px;
+  }
+
+  .tagline span {
+    margin: 10px 0;
+    padding: 1px;
+    width: 10%;
+    background-color: #828282;
+    box-sizing: border-box;
+  }
+
+  .header .accents-ring {
+    width: 300px;
+    top: 50%;
+    left: 65%;
+  }
+  .more-catalog {
+    width: 90%;
+  }
+
+  .catalog #img-1,
+  .catalog #img-2,
+  .catalog #img-3,
+  .catalog #img-4 {
+    width: 400px;
+  }
+
+  #line {
+    width: 300px;
+  }
+
+  .text-voucher h2 {
+    padding-top: 48px;
+    font-size: 56px;
+    line-height: 85px;
+  }
+
+  .bg-about {
+    width: auto;
+    height: 892px;
+    background-image: url(../assets/bg-about1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .bg-about .container span {
+    color: #e6b325;
+  }
+
+  #about {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: left;
+  }
+
+  .bg-about .text-about {
+    height: 800px;
+    width: 50%;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .text-about h2 {
+    font-family: "playfair display";
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 63px;
+  }
+
+  .text-about span {
+    display: flex;
+    width: 55px;
+    border-bottom: 5px solid #828282;
+  }
+  .text-about p {
+    font-family: "quicksand";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 50px;
+  }
+
+  #copyright {
+    width: 100%;
+    height: 4%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: flex-end;
+  }
+}
